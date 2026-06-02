@@ -5,13 +5,11 @@
 
 #include <iostream>
 using namespace std;
-
 class student
 {
     public: // access specifier - Accessed outside the class
     int roll_no; // data member
     string name ;
-
 void display()
 { // Member Function
     cout<<"Name: "<<name<<" , "<<"Roll_no. : "<<roll_no<<endl;
