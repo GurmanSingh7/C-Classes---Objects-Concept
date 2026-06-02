@@ -3,6 +3,7 @@
 //(ii) whenever we create a object the memory for the data members is assigned to that object while every object share the member functions.
 //(iii) Each object will have its seperate copy of its data member while the member function are shared by every object.
 
+
 #include <iostream>
 using namespace std;
 class student
@@ -10,11 +11,11 @@ class student
     public: // access specifier - Accessed outside the class
     int roll_no; // data member
     string name ;
+
 void display()
 { // Member Function
     cout<<"Name: "<<name<<" , "<<"Roll_no. : "<<roll_no<<endl;
 }
-
 };
 
 int main()
