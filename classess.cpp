@@ -1,4 +1,5 @@
 // Class :-Class is a user-defined datatype which provides blueprint of real world entity i.e. object.
+
 //(i) variables (data-members & member function are defined in classess)
 //(ii) whenever we create a object the memory for the data members is assigned to that object while every object share the member functions.
 //(iii) Each object will have its seperate copy of its data member while the member function are shared by every object.
