@@ -36,7 +36,8 @@ int main()
 // Whenever we are not providing any access specifier , all members of class are private . If we want to use them outside class we are required to make them public(access specifier).
 
 // Encapsulation :- It is a process of binding data members and member functions within a class.
-//(i) - Encapsulation provides three access specifier using which we can manage class members visibility/accessibility outside class.
+
+// (i) - Encapsulation provides three access specifier using which we can manage class members visibility/accessibility outside class.
 // Access Specifiers :-
 //  -Public - It can be access outside the class
 //  -Private - it can't be accessed outside the class
