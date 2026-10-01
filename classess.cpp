@@ -17,6 +17,7 @@ void display()
 { // Member Function
     cout<<"Name: "<<name<<" , "<<"Roll_no. : "<<roll_no<<endl;
 }
+
 };
 
 int main()
@@ -1435,7 +1436,8 @@ int main()
 }
 
 
-Overlaoding Urnary Operator 
+Overlaoding Urnary Operator : 
+
 class Num
 {
     int a;
@@ -1493,7 +1495,8 @@ int main()
 }
 
 
-Post Fix
+Post Fix : 
+
 Num operator++(int)
     {
         Num g;
