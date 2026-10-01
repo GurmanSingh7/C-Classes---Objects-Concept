@@ -1044,13 +1044,17 @@ t.a = this->a + n.a;
 t.name = this->name + "+" + n.name;
 return t;
 }
+
 bool operator>(Number &n){
     return this->a > n.a;
 }
+
 bool operator==(Number &n){
     return this->a == n.a;
 }
+
 };
+
 int main()
 {
     Number num1("num1" , 10) , num2("num2",10);
@@ -1077,7 +1081,7 @@ Write a C++ program to create a complex number class and add , substract , multi
 Write a C++ program to compare two student class on the basis of marks & print name of the students who has got the greater marks using relational operator overloading.
 
 
-                                             Urnary Operator 
+                                             Urnary Operator -  
 int main()
 {
     int a = 5;
@@ -1139,7 +1143,9 @@ int main()
     return 0;
 }
 
- Post Fix : 
+
+Post Fix : 
+
 class Number{
 int a;
 string name;
@@ -1222,6 +1228,7 @@ Number operator++(int){
 }
 friend Number operator -(Number &n1 , Number &n2);
 };
+
 Number operator -(Number &n1 , Number &n2){
     Number t;
     t.a = n1.a - n2.a;
@@ -1408,7 +1415,8 @@ Write a C++ program to print an integer array using pointer arithmetic
 Whenever we are adding some integer to a pointer the pointer will try to move to the next element , if we add  1 like to next element it will take 4 byte.
 
 
-Unary Operator Overloading 
+Unary Operator Overloading :
+
 class Num
 {
     int a;
@@ -1484,6 +1492,7 @@ class Num
         cout<<"Value of a: "<<a<<endl;
     }
 };
+
 int main()
 {
     Num n1(5);
@@ -1493,6 +1502,7 @@ int main()
     n2.display();
     return 0;
 }
+
 
 
 Post Fix : 
